@@ -1,6 +1,6 @@
 {
   "name": "jeercodeframep",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "VisionCamera V3 Frame Processor Plugin to read barcodes using MLKit Vision Barcode Scanning",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
