@@ -1,4 +1,4 @@
-import { Frame, useFrameProcessor } from 'react-native-vision-camera';
+import { Frame, useFrameProcessor, FrameProcessorPlugins } from 'react-native-vision-camera';
 import { useState } from 'react';
 import { runOnJS } from 'react-native-reanimated';
 
@@ -12,7 +12,7 @@ export function useScanBarcodes(
 
   const frameProcessor = useFrameProcessor((frame) => {
     'worklet';
-    const detectedBarcodes = scanBarcodes(frame, types, options);
+    const detectedBarcodes = FrameProcessorPlugins.jeercode(frame, types, options);
     runOnJS(setBarcodes)(detectedBarcodes);
   }, []);
 

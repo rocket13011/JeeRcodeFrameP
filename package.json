@@ -1,7 +1,7 @@
 {
-  "name": "vision-camera-code-scanner",
+  "name": "jeercodeframep",
   "version": "0.2.0",
-  "description": "VisionCamera Frame Processor Plugin to read barcodes using MLKit Vision Barcode Scanning",
+  "description": "VisionCamera V3 Frame Processor Plugin to read barcodes using MLKit Vision Barcode Scanning",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
   "types": "lib/typescript/src/index.d.ts",
@@ -16,7 +16,7 @@
     "android",
     "ios",
     "cpp",
-    "vision-camera-code-scanner.podspec",
+    "JeeRcodeFrameP.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build"
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/rodgomesc/vision-camera-code-scanner",
-  "author": "Rodrigo gomes <rodgomesc@gmail.com> (https://github.com/rodgomesc)",
+  "repository": "https://github.com/rocket13011/JeeRcodeFrameP",
+  "author": "Rodrigo gomes <rocket13011@gmail.com> (https://github.com/rocket13011)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rodgomesc/vision-camera-code-scanner/issues"
+    "url": "https://github.com/rocket13011/JeeRcodeFrameP/issues"
   },
-  "homepage": "https://github.com/rodgomesc/vision-camera-code-scanner#readme",
+  "homepage": "https://github.com/rocket13011/JeeRcodeFrameP#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

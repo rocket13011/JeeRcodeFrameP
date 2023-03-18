@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "vision-camera-code-scanner": ["./src/index"]
+      "JeeRcodeFrameP": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
